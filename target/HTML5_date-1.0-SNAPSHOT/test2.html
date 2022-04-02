@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：HTML5_date
+  File name(文件名): test2
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/4/2
+  Time(创建时间)： 14:22
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="hotAirBalloon.css">
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="text_position">
+    <div class="text animated flipInY">
+        日期
+    </div>
+</div>
+
+<div class="form_position">
+    <div class="animated bounceInDown">
+        <div class="form">
+            <form action="result.jsp" method="post">
+                <table border="1">
+                    <tr>
+                        <td colspan="2" align="center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prompt">本地</td>
+                        <td>
+                            <label>
+                                <input class="input" type="datetime-local" name="date1">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prompt">只显示时间</td>
+                        <td>
+                            <label>
+                                <input class="input" type="time" name="date2">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prompt">只显示日期</td>
+                        <td>
+                            <label>
+                                <input class="input" type="date" name="date3">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prompt">年份和月份</td>
+                        <td>
+                            <label>
+                                <input class="input" type="month" name="date4">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prompt">周</td>
+                        <td>
+                            <label>
+                                <input class="input" type="week" name="date5">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input class="submit" type="submit" value="提交"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="left animated slideInUp">
+    <figure class="balloon">
+        <div class="envelope">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="basket">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </figure>
+</div>
+<div class="right animated slideInUp">
+    <figure class="balloon">
+        <div class="envelope">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="basket">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </figure>
+</div>
+<div class="left1 animated slideInDown">
+    <figure class="balloon">
+        <div class="envelope">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="basket">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </figure>
+</div>
+<div class="right1 animated slideInDown">
+    <figure class="balloon">
+        <div class="envelope">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="basket">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </figure>
+</div>
+
+</body>
+</html>

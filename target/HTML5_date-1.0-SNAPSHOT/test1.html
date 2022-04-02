@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：HTML5_date
+  File name(文件名): test1
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/4/2
+  Time(创建时间)： 13:19
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p id="p1" draggable="true" ondragstart="dragging(event)">drag me</p>
+
+<script>
+    document.getElementsByClassName()
+    document.getElementById("")
+    document.getElementsByTagName("")
+    var newNode = document.createElement("form")
+    newNode.id = "myForm"
+    newNode.method = "post"
+
+    var newNode = document.createElement("li")
+    newNode.innerHTML = "Canada"
+    var ui = document.getElementById("ul1")
+    ui.appendChild(newNode)
+
+    var parent = document.getElementById("browser")
+    var child = document.getElementById("opera")
+    parent.removeChild(child)
+
+    var parent = document.getElementById("parent")
+    var old = document.getElementById("old")
+    parent.replaceChild(newChild, old)
+
+    var child2 = document.createElement("option")
+    child2.value = "HeFeiCity"
+    child2.innerHTML = "合肥市"
+    city.appendChild(child2)
+
+
+    var button2 = document.getElementById("button2")
+    button2.onclick = listenButton2()
+    var button3 = document.getElementById("button3")
+    button3.addEventListener("click", listenButton3())
+
+    console.log("Welcome!")
+
+    var myButton = document.getElementById("but")
+    myButton.onclick = function ()
+    {
+        var myElement = document.getElementById("p")
+        myElement.innerHTML = "clicked"
+    }
+
+    function pressEvent(event)
+    {
+        var code = event.which
+        if (code == 13)
+        {
+            console.log("cannot use enter")
+        }
+    }
+
+    var ele = document.getElementById("input")
+    var len = ele.value.length
+    if (len <= 12)
+    {
+        console.log("too short input")
+    }
+
+
+    function dragging(event) {
+        console.log(event.target.innerText)
+    }
+
+    event.stopPropagation()
+
+</script>
+</body>
+</html>
